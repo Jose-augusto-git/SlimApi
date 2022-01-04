@@ -1,0 +1,6 @@
+{
+    "require": {
+        "illuminate/database": "^8.78",
+        "monolog/monolog": "^2.3"
+    }
+}
