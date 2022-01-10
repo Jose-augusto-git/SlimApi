@@ -16,16 +16,18 @@ return [
             'level' => \Monolog\Logger::DEBUG,
         ],
 
-        //DB settings       
-        'db' => [
-            'driver' => 'mysql',
-            'host' => 'localhost',
-            'database' => 'slim',
-            'username' => 'root',
-            'password' => '',
-            'charset' => 'utf8',
+        // DB settings
+        'db' =>    [
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'slim',
+            'username'  => 'root',
+            'password'  => '',
+            'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'prefix' => '',
-        ]
+            'prefix'    => '',
+        ],
+        // Secret
+        'secretKey' => 'c36bc8614bddccca25cfb9e8c96e64aa8c73207c'
     ],
 ];
